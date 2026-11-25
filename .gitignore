@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+data/
+human+activity+recognition+using+smartphones.zip
+results/*.pt
+results/*.npz
+results/training_history.csv
+results/training_summary.json
+results/test_summary.json
+results/predictions.csv
