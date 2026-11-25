@@ -1,0 +1,18 @@
+{
+  "device": "cpu",
+  "gpu_name": null,
+  "trainable_parameters": 46982,
+  "initial_training_loss": 1.7770383642719874,
+  "initial_training_accuracy": 0.30860634866745884,
+  "initial_validation_loss": 1.7780992915416562,
+  "initial_validation_accuracy": 0.25256673511293637,
+  "best_epoch": 7,
+  "best_validation_loss": 0.07800504515262437,
+  "training_loss_at_best_epoch": 0.12369279061325376,
+  "validation_accuracy_at_best_epoch": 0.9794661190965093,
+  "training_time_seconds": 376.654985666275,
+  "epochs_completed": 30,
+  "batch_size": 64,
+  "learning_rate": 0.001,
+  "gradient_clip_norm": 1.0
+}

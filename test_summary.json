@@ -1,0 +1,82 @@
+{
+  "test_accuracy": 0.9172039362063115,
+  "test_accuracy_percent": 91.72039362063114,
+  "confusion_matrix": [
+    [
+      475,
+      7,
+      13,
+      0,
+      1,
+      0
+    ],
+    [
+      2,
+      468,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      3,
+      3,
+      414,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      397,
+      92,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      92,
+      439,
+      0
+    ],
+    [
+      0,
+      26,
+      0,
+      0,
+      1,
+      510
+    ]
+  ],
+  "per_class_accuracy": {
+    "WALKING": 0.9576612903225806,
+    "WALKING_UPSTAIRS": 0.9936305732484076,
+    "WALKING_DOWNSTAIRS": 0.9857142857142858,
+    "SITTING": 0.8085539714867617,
+    "STANDING": 0.825187969924812,
+    "LAYING": 0.9497206703910615
+  },
+  "mean_max_attention": {
+    "WALKING": 0.30220213532447815,
+    "WALKING_UPSTAIRS": 0.1843273639678955,
+    "WALKING_DOWNSTAIRS": 0.26921066641807556,
+    "SITTING": 0.017439329996705055,
+    "STANDING": 0.018913457170128822,
+    "LAYING": 0.009617093950510025
+  },
+  "most_confused_pair": {
+    "activity_1": "SITTING",
+    "activity_2": "STANDING",
+    "two_way_error_count": 184
+  },
+  "moving_mean_max_attention": 0.2519133885701497,
+  "still_mean_max_attention": 0.015323293705781301,
+  "attention_min": 2.751099570375004e-09,
+  "attention_max": 0.8030273914337158,
+  "attention_row_sum_min": 0.9999997615814209,
+  "attention_row_sum_max": 1.000000238418579,
+  "confusion_matrix_total": 2947
+}
